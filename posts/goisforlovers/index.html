@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir=>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@ This document is a brief primer on using Go templates.">
 <meta property="og:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/goisforlovers/" />
+<meta property="og:url" content="http://inseinjee.github.io/posts/goisforlovers/" />
 <meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
 <meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" />
 <title>(Hu)go Template Primer | INSEIN WORLD</title>
@@ -24,9 +24,8 @@ https://github.com/alex-shpak/hugo-book
   
 </head>
 
-<body dir=>
-  <input type="checkbox" class="hidden toggle" id="menu-control" />
-  <input type="checkbox" class="hidden toggle" id="toc-control" />
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
   <main class="container flex">
     <aside class="book-menu">
       
@@ -193,124 +192,6 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
-      
-        <li class="book-section-flat" >
-          
-  
-    <span>Shortcodes</span>
-  
-
-          
-  
-  
-  
-
-  
-  <ul>
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/buttons/" class="">Buttons</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/columns/" class="">Columns</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/details/" class="">Details</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/expand/" class="">Expand</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/hints/" class="">Hints</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/katex/" class="">Katex</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/mermaid/" class="">Mermaid</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/section/" class="collapsed ">Section</a>
-  
-
-          
-  
-  
-  
-
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/tabs/" class="">Tabs</a>
-  
-
-        </li>
-      
-    
-  </ul>
-  
-
-        </li>
-      
-    
   </ul>
   
 
@@ -368,16 +249,15 @@ https://github.com/alex-shpak/hugo-book
   <strong>(Hu)go Template Primer</strong>
 
   <label for="toc-control">
-    
     <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
-    
   </label>
 </div>
 
 
   
-  <aside class="hidden clearfix">
-    
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
   <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction-to-go-templates">Introduction to Go Templates</a></li>
@@ -402,7 +282,7 @@ https://github.com/alex-shpak/hugo-book
 </nav>
 
 
-  </aside>
+    </aside>
   
  
       </header>
@@ -692,13 +572,8 @@ so, such as in this example:</p>
 
       
   
-  <div class="book-comments"><script src="https://utteranc.es/client.js"
-        repo="inseinjee/hugo-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script></div>
+  <div class="book-comments">
+</div>
   
  
 

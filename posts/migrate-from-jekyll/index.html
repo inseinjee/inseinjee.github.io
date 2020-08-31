@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir=>
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -12,7 +12,7 @@
 ▾ &lt;root&gt;/▾ images/logo.png should become
 ▾ &lt;root&gt;/▾ static/▾ images/logo.png Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://example.org/posts/migrate-from-jekyll/" />
+<meta property="og:url" content="http://inseinjee.github.io/posts/migrate-from-jekyll/" />
 <meta property="article:published_time" content="2014-03-10T00:00:00+00:00" />
 <meta property="article:modified_time" content="2014-03-10T00:00:00+00:00" />
 <title>Migrate to Hugo from Jekyll | INSEIN WORLD</title>
@@ -26,9 +26,8 @@ https://github.com/alex-shpak/hugo-book
   
 </head>
 
-<body dir=>
-  <input type="checkbox" class="hidden toggle" id="menu-control" />
-  <input type="checkbox" class="hidden toggle" id="toc-control" />
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
   <main class="container flex">
     <aside class="book-menu">
       
@@ -195,124 +194,6 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
-      
-        <li class="book-section-flat" >
-          
-  
-    <span>Shortcodes</span>
-  
-
-          
-  
-  
-  
-
-  
-  <ul>
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/buttons/" class="">Buttons</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/columns/" class="">Columns</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/details/" class="">Details</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/expand/" class="">Expand</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/hints/" class="">Hints</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/katex/" class="">Katex</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/mermaid/" class="">Mermaid</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/section/" class="collapsed ">Section</a>
-  
-
-          
-  
-  
-  
-
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-    <a href="/docs/shortcodes/tabs/" class="">Tabs</a>
-  
-
-        </li>
-      
-    
-  </ul>
-  
-
-        </li>
-      
-    
   </ul>
   
 
@@ -370,16 +251,15 @@ https://github.com/alex-shpak/hugo-book
   <strong>Migrate to Hugo from Jekyll</strong>
 
   <label for="toc-control">
-    
     <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
-    
   </label>
 </div>
 
 
   
-  <aside class="hidden clearfix">
-    
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
   <nav id="TableOfContents">
   <ul>
     <li><a href="#move-static-content-to-static">Move static content to <code>static</code></a></li>
@@ -403,7 +283,7 @@ https://github.com/alex-shpak/hugo-book
 </nav>
 
 
-  </aside>
+    </aside>
   
  
       </header>
@@ -578,13 +458,8 @@ Liquid::Template.register_tag('image', Jekyll::ImageTag)
 
       
   
-  <div class="book-comments"><script src="https://utteranc.es/client.js"
-        repo="inseinjee/hugo-comments"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script></div>
+  <div class="book-comments">
+</div>
   
  
 
