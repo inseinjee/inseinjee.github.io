@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on Code</title>
-    <link>http://example.org/</link>
-    <description>Recent content in Introduction on Code</description>
+    <title>Code</title>
+    <link>http://example.org/docs/test/table-of-contents/</link>
+    <description>Recent content on Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/docs/test/table-of-contents/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -29,25 +28,6 @@
       <guid>http://example.org/docs/test/table-of-contents/without-toc/</guid>
       <description>At me ipso nepotibus nunc celebratior genus Tanto oblite Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat admonitu concidit, ad resimas vultus et rugas vultu dignamque Siphnon.
 Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description>
-    </item>
-    
-    <item>
-      <title>Hugo로 블로그 만들기</title>
-      <link>http://example.org/posts/20200511_ckad/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/posts/20200511_ckad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://example.org/docs/test/certifications/certifications/4th-level/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/docs/test/certifications/certifications/4th-level/</guid>
-      <description>4th Level of Menu Caesorum illa tu sentit micat vestes papyriferi Inde aderam facti; Theseus vis de tauri illa peream. Oculos uberaque non regisque vobis cursuque, opus venit quam vulnera. Et maiora necemque, lege modo; gestanda nitidi, vero? Dum ne pectoraque testantur.
-Venasque repulsa Samos qui, exspectatum eram animosque hinc, aut manes, Assyrii. Cupiens auctoribus pariter rubet, profana magni super nocens. Vos ius sibilat inpar turba visae iusto! Sedes ante dum superest extrema.</description>
     </item>
     
   </channel>
